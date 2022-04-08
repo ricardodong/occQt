@@ -96,7 +96,7 @@ void OccView::init()
     #endif
 
     // Create V3dViewer and V3d_View
-    myViewer = new V3d_Viewer(GetGraphicDriver(), Standard_ExtString("viewer3d"));
+    myViewer = new V3d_Viewer(GetGraphicDriver());
 
     myView = myViewer->CreateView();
 
